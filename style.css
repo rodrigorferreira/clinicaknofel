@@ -36,9 +36,6 @@ main {
     min-height: 450px; /* Ajuste este valor conforme necessário */
 }
 
-    
-}
-
 .nav-list {
     list-style: none;
     display: flex;
