@@ -31,10 +31,20 @@ nav {
 
 main {
     background: url('imagens/siteemconstrucao.jpg') no-repeat center center;
-    background-size: 100% auto;
-    height: 100vh; /* Ajuste este valor conforme necessário */
-    min-height: 450px; /* Ajuste este valor conforme necessário */
+    background-size: cover;
+    height: 100vh;
+    min-height: 450px;
 }
+
+/* Regras para telas com largura de até 600px */
+@media (max-width: 600px) {
+    main {
+        background-size: 100% auto;
+        height: auto;
+        min-height: 100vh;
+    }
+}
+
 
 .nav-list {
     list-style: none;
