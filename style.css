@@ -31,8 +31,11 @@ nav {
 
 main {
     background: url('imagens/siteemconstrucao.jpg') no-repeat center center;
-    background-size: cover;
-    height: 150vh;
+    background-size: 100% auto;
+    height: 100vh; /* Ajuste este valor conforme necessário */
+    min-height: 450px; /* Ajuste este valor conforme necessário */
+}
+
     
 }
 
